@@ -1,10 +1,15 @@
 import React from 'react'
-import ProductList from './Components/ProductList'
+import Navbar from './Components/Navbar/Navbar'
+import './App.css'
+import Content from './Components/Contents/Content'
+
+// import ProductList from './Components/ProductList'
 
 function App() {
   return (
-<div>
-  <ProductList/>
+<div className='App'>
+<Navbar/>
+<Content/>
 </div>
   )
 }
